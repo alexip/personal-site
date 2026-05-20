@@ -1,0 +1,16 @@
+# Local notes and drafts
+PRD.md
+
+# Obsidian vault settings
+.obsidian/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# OS / runtime junk
+*.log
+node_modules/

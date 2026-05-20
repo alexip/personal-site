@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The last 30 days of affirmations and prompts." />
+    <meta name="color-scheme" content="light dark" />
+    <title>Past 30 days — A quiet moment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="archive-body">
+    <main class="page archive">
+      <header class="top">
+        <a href="index.html" class="text-link">← Today</a>
+        <button
+          id="theme-toggle"
+          class="icon-btn"
+          type="button"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+        >
+          <span aria-hidden="true" id="theme-icon">◐</span>
+        </button>
+      </header>
+
+      <h1 class="archive-title">Past 30 days</h1>
+
+      <ol class="archive-list" id="archive-list" aria-live="polite">
+        <li class="archive-loading">Loading…</li>
+      </ol>
+
+      <footer class="foot">
+        <a href="index.html" class="text-link">← Back to today</a>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A quiet daily affirmation and journal prompt. New each day." />
+    <meta name="color-scheme" content="light dark" />
+    <title>A quiet moment — today</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page" aria-live="polite">
+      <header class="top">
+        <p class="date" id="date" aria-label="Today's date"></p>
+        <button
+          id="theme-toggle"
+          class="icon-btn"
+          type="button"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+        >
+          <span aria-hidden="true" id="theme-icon">◐</span>
+        </button>
+      </header>
+
+      <section class="content">
+        <p class="eyebrow">Today's affirmation</p>
+        <p class="affirmation" id="affirmation">Loading…</p>
+
+        <hr class="divider" aria-hidden="true" />
+
+        <p class="eyebrow">A prompt to sit with</p>
+        <p class="prompt" id="prompt">Loading…</p>
+
+        <div class="actions">
+          <button id="copy-btn" class="text-btn" type="button">Copy prompt</button>
+          <span id="copy-status" class="copy-status" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <footer class="foot">
+        <a href="archive.html" class="text-link">Past 30 days →</a>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
