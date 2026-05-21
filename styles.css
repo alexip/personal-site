@@ -266,6 +266,24 @@ body {
   font-style: italic;
 }
 
+/* About page */
+
+.about-prose {
+  font-family: var(--font-serif);
+  font-size: clamp(1.05rem, 2.6vw, 1.18rem);
+  line-height: 1.65;
+  color: var(--ink-soft);
+  max-width: 36rem;
+}
+
+.about-prose p {
+  margin: 0 0 1.25rem;
+}
+
+.about-prose p:last-of-type {
+  margin-bottom: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;

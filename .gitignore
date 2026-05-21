@@ -1,5 +1,6 @@
 # Local notes and drafts
 PRD.md
+summary.md
 
 # Obsidian vault settings
 .obsidian/
@@ -14,3 +15,6 @@ PRD.md
 # OS / runtime junk
 *.log
 node_modules/
+
+# Planning docs
+PRD-*.md
